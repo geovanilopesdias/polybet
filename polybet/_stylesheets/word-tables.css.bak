@@ -1,0 +1,37 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Lilita+One&display=swap");
+
+body {background-color: hsl(165, 53%, 95%);}
+/* Header */
+header {text-align: center; background-color: hsl(0, 100%, 100%); margin-top: -20px;}
+header img {display: block; margin: 100px auto 0px auto}
+header h1{
+	font-family: 'Nova Mono', monospace; font-size: 20px; text-align: center;
+	margin: 0px auto 15px auto; border-bottom: 5px double hsl(236, 46%, 50%);
+}
+nav#table h1{
+	font-family: 'Nova Mono', monospace; font-size: 30px; text-align: left;
+	margin-top: 0px; margin-bottom: 0px; margin-left: 215px; padding: 1px; /*margin-left = margin-left da tabela + padding do td.icon*/
+}
+nav#table h2{
+	font-family: 'Nova Mono', monospace; font-size: 15px; text-align: left;
+	margin-top: 0px; margin-left: 215px; padding: 1px; /*margin-left = margin-left da tabela + padding do td.icon*/
+}
+
+/* Table */
+table {display: block; margin-left: 200px; margin-right: 200px; background-color: hsl(165, 53%, 95%);}
+td {vertical-align: middle; margin-bottom: 5px;}
+td.icon {
+	border-radius: 15px; background-color: hsl(0,100%,100%); text-align: center;
+	border: none; transition: border 1s;
+}
+td.word {
+	font-family: 'Lilita One', monospace; font-size: 80pt; color: hsl(236, 46%, 50%);
+	background-color: hsl(165, 53%, 95%); text-align: left; padding-left: 10px;
+}
+
+/* Images */
+figure.letter-logo img {
+	width: 100px; height: 100px;
+	padding: 0px; margin: 0px; border-radius: 5px;
+}

@@ -1,0 +1,27 @@
+<DOCTYPE! html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" href="_stylesheets/index-general-style.css">
+		<title>POLYBET</title>
+	</head>
+	<body>
+		<header>
+			<figure>
+				<img src="_images/polybet-logo-main.svg">
+				<figcaption>POLYBET LOGO</figcaption>
+			</figure>
+		</header>
+		<nav>
+			<ul>
+				<li><input type="submit" value="English"></li>
+				<li><input type="submit" value="Español"></li>
+				<li><input type="submit" value="Deutsch"></li>
+				<li><a href="_portugues/index-pt.html"><input type="submit" value="Português"></a></li>
+			</ul>
+		</nav>
+		<footer>
+			<h1>Gheowin: Educational Apps | By Geovani L. Dias</h1>
+		</footer>
+	</body>
+</html>

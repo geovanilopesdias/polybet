@@ -1,0 +1,22 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Varela+Round&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Covered+By+Your+Grace&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap");
+
+/* General */
+body {background-color: hsl(208 70% 92%);}
+figcaption {opacity: 0;}
+img {display: block; width: 60%; height: 60%; margin: auto;}
+
+/* Menu*/
+ul {margin-top: 0px; list-style: none; position: relative; text-align: center; font-family: 'Varela Round', monospace;}
+li {display: inline-block; padding: 10px;}
+input {
+	font-size: 15pt; font-weight: bold; color: hsl(236, 46%, 50%);
+	background-color: hsl(208 60% 80%); border-radius: 20px; width: 120px; height: 50px;
+}
+
+/* Footer*/
+footer {text-align: center; border-top: 3px double hsl(208 80% 50%); display: block; padding: 10px; margin-top: 5px; margin-left: auto; margin-right: auto;}
+footer h1{font-family: 'Fredoka One', sans-serif; color: hsl(208 86% 31%); font-size: 15pt; margin-bottom: 0px;}
+footer p{font-family: 'Covered By Your Grace', sans-serif; font-size: 20pt; margin-top: 0px;}
